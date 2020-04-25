@@ -27,15 +27,14 @@
         android:layout_below="@id/AppBar"
         android:orientation="vertical">
 
-        <GridView
-            android:id="@+id/grid_view"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview_grid"
             android:layout_margin="10dp"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-
-
             />
+
         <EditText
             android:id="@+id/editTitle"
             android:layout_marginLeft="10dp"

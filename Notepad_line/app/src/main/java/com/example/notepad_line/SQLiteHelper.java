@@ -43,10 +43,8 @@ public class SQLiteHelper {
             sqLiteDatabase.execSQL(create);
 
             String imageTable = "CREATE TABLE "+ imagetable + "("+
-                    "seq integer PRIMARY KEY AUTOINCREMENT,"+
-                    "maintext text," +
-                    "subtext text," +
-                    "titletext text," +
+                    "Imagenum integer PRIMARY KEY AUTOINCREMENT,"+
+                    "mamonum integer," +
                     "isdone integer)";
             sqLiteDatabase.execSQL(imageTable);
         }
